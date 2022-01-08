@@ -17,7 +17,6 @@ key_list=data.keys()
 value_list=data.values()
 for key in key_list:
     print(data[key])
-
 ##########################
 #set //수정불가, 중복허용x, 순서x(즉, indexing 못함. 무조건 오름차순)
 even_set=set([i for i in range(10) if i%2==0])

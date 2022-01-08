@@ -12,9 +12,9 @@ print('hello python!'.upper())
 print('HELLO PYTHON!'.lower())
 print('HeLlO pYtHoN!'.swapcase())
 print('HeLlO pYtHoN!'.strip('!'))
-
 ##########################
 print(float('1.1'))
+print(eval("(3+5)*7"))
 str=input()
 int_a,int_b=map(int,input().split(' '))
 data=list(map(int,input().split(' ')))
@@ -24,3 +24,6 @@ print(data)
 ##########################
 a=1;b=2;c=3
 print(a,b,c,sep=',')
+##########################
+print(list("hesda"))
+print("".join(list("hesda")))

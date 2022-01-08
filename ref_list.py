@@ -18,6 +18,18 @@ array.remove([value])
 array.count([value])
 array.index([value])
 ##########################
+def my_key(x):
+    return x[1]
+data=[('apple',2),('banana',1),('coconut',3)]
+print(sorted(data,key=my_key,reverse=True))
+print(sorted(data,key=lambda x:x[1],reverse=True))
+data.sort(key=lambda x:x[1],reverse=True)
+print(data)
+##########################
+ls1=[1,3,5]
+ls2=[2,4,6]
+print(list(map(lambda x,y:x+y,ls1,ls2)))
+##########################
 arr=[1,2,3,3,3,5,5,5]
 while 1:
     if 3 in arr:
@@ -33,3 +45,5 @@ ref_set={3,5}
 result=[i for i in arr2 if i not in ref_set]
 print(result)
 ##########################
+#string 한글자씩 자르기
+print(list("hello ~ ~"))
