@@ -43,6 +43,12 @@ import collections  #deque, counter등의 자료구조
 from collections import Counter
 counter=Counter(['A','B','A','A','C','B',1,1])
 print(dict(counter))
+from collections import deque
+queue=deque([1,2])
+queue.append(1)
+queue.popleft()
+queue.reverse()
+print(queue)
 ##########################
 import math         #factorial, pow, gcd 등
 def lcm(a,b):

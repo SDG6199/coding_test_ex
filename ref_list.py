@@ -47,3 +47,10 @@ print(result)
 ##########################
 #string 한글자씩 자르기
 print(list("hello ~ ~"))
+##########################
+stack=[1,2,3,4,5]
+stack.append(6)
+stack.pop()
+print(stack[3:1:-1])
+for i in range(5,1,-1):
+    print(i)
