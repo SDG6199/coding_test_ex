@@ -35,6 +35,7 @@ from itertools import combinations_with_replacement     #중복조합
 
 data=['A','B','C']
 print(list(permutations(data,2)))
+print(list(map("".join,list(permutations("12345",2)))))
 print(list(combinations(data,2)))
 print(list(product(data,repeat=2)))
 print(list(combinations_with_replacement(data,2)))

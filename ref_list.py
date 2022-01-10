@@ -51,6 +51,7 @@ print(list("hello ~ ~"))
 stack=[1,2,3,4,5]
 stack.append(6)
 stack.pop()
+del stack[1]
 print(stack[3:1:-1])
 for i in range(5,1,-1):
     print(i)
