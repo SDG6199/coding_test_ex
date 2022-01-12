@@ -13,6 +13,7 @@ array.append()
 array.sort()                #오름차순
 array.sort(reverse=True)    #내림차순
 array.insert([index], [value])
+array.reverse()
 array.pop([index])
 array.remove([value])
 array.count([value])

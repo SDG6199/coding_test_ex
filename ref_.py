@@ -59,6 +59,9 @@ print(math.gcd(a,b))
 print(lcm(a,b))
 print(math.factorial(5))
 print(math.pow(2,5))
+print(math.ceil(1.59122))
+print(math.floor(1.59123))
+print(round(1.59123,2))
 ##########################
 import heapq        #heap자료구조의 que기능
 import bisect       #binary search
